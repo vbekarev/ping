@@ -5,6 +5,9 @@ import java.io.Serializable;
 public class PingDto implements Serializable {
     private String message;
 
+    public PingDto() {
+    }
+
     public PingDto(String message) {
         this.message = message;
     }
